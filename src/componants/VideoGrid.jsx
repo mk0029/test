@@ -3,7 +3,7 @@ import video from "../assets/img/webp/jenny.webp";
 import youbute from "../assets/img/svg/youtube-icon.svg";
 import VideoCards from "../js/VideoCards";
 
-function VideoTestimSecond() {
+function VideoGrid() {
   const [showVideo, setShowVideo] = useState(false);
   const handleVideoClick = () => {
     setShowVideo(!showVideo);
@@ -73,4 +73,4 @@ function VideoTestimSecond() {
   );
 }
 
-export default VideoTestimSecond;
+export default VideoGrid;

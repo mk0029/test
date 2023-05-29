@@ -8,9 +8,9 @@ import Recovery from "../componants/Recovery";
 import Success from "../componants/Success";
 import Eligiblity from "../componants/Eligiblity";
 import Program from "../componants/Program";
-import FeeStructure from "../componants/FeeStructure";
+import Structer from "../componants/Structer";
 import Review from "../componants/Review";
-import Faq from "../componants/Faq";
+import Accordian from "../componants/Accordian";
 import Footer from "../componants/Footer";
 import Loader from "../componants/Loader";
 
@@ -27,10 +27,10 @@ function Home() {
         <Recovery />
         <Success />
         <Eligiblity />
-        <FeeStructure />
+        <Structer />
         <Program />
         <Review />
-        <Faq FaqShaddowNone="d-none" />
+        <Accordian FaqShaddowNone="d-none" />
         <Footer />
       </div>
     </>

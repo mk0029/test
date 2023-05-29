@@ -2,7 +2,7 @@ import React from "react";
 import brian from "../assets/img/webp/brian.webp";
 import groge from "../assets/img/webp/grorge.webp";
 
-function Team() {
+function OurTeam() {
   return (
     <>
       <section
@@ -118,4 +118,4 @@ function Team() {
   );
 }
 
-export default Team;
+export default OurTeam;

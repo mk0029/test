@@ -2,7 +2,7 @@ import React from "react";
 import Arrow from "../assets/img/svg/arrow-curve1.svg";
 import structure from "../assets/img/svg/structure-vector.svg";
 
-function FeeStructure() {
+function Structer() {
   return (
     <section
       data-aos="fade-up"
@@ -83,4 +83,4 @@ function FeeStructure() {
   );
 }
 
-export default FeeStructure;
+export default Structer;

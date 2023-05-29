@@ -1,10 +1,10 @@
 import React from "react";
 import Journey from "../componants/Journey";
 import Footer from "../componants/Footer";
-import Faq from "../componants/Faq";
+import Accordian from "../componants/Accordian";
 import Program from "../componants/Program";
 import Review from "../componants/Review";
-import Team from "../componants/Team";
+import OurTeam from "../componants/OurTeam";
 import Recovery from "../componants/Recovery";
 import Success from "../componants/Success";
 import AboutHero from "../componants/AboutHero";
@@ -18,11 +18,11 @@ function About() {
       <Header nav_tab_onhover_About="nav_tab_onhover_ActivePage" />
       <AboutHero MainText="AboutUs" />
       <Journey />
-      <Team />
+      <OurTeam />
       <Recovery COlmnREvart=" flex-column-reverse" />
       <Success />
       <Review />
-      <Faq Faq__BgGreen=" #25AE8614" />
+      <Accordian Faq__BgGreen=" #25AE8614" />
       <Footer />
     </div>
   );

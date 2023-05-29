@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import arrow from "../assets/img/svg/arrow-forward.svg";
 import vector from "../assets/img/svg/faq-vector.svg";
 
-function Faq(props) {
+function Accordian(props) {
   const [accordian, setAccordian] = useState(0);
 
   return (
@@ -352,4 +352,4 @@ function Faq(props) {
   );
 }
 
-export default Faq;
+export default Accordian;
